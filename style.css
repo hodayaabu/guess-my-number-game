@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  color: #eee;
+  background-color: rgb(56, 3, 56);
+}
+
+header{
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+}
+
+main {
+  height: 65vh;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h1.main-header{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 25%; 
+  font-size: 4rem;
+}
+
+p.between{
+  position: absolute;
+  right: 5%;
+  top: 7%;
+  font-size: 20px;
+}
+
+button.agin{
+  position: absolute;
+  left: 5%;
+  top: 7%;
+}
+
+div.number{
+  background: #eee;
+  color: rgb(56, 3, 56);
+  font-size: 6rem;
+  width: 15rem;
+  padding: 3rem 0rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  border: 7px double rgb(56, 3, 56);
+}
+
+.left {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  width: 52rem;
+  font-size: 2rem;
+} 
+
+input.guess{
+  margin: 25px;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  font-size: 50px;
+}
+
+button.btn {
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  padding: 20px;
+  font-size: 30px;
+  color: rgb(56, 3, 56);
+}
+
+p{
+  font-size: 20px;
+}
+
+p.message {
+  margin-bottom: 8rem;
+  height: 3rem;
+}
+
+p.label-score {
+  margin-bottom: 2rem;
+} 
